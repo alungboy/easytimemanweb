@@ -297,7 +297,7 @@
           <!-- BEGIN BOTTOM ABOUT BLOCK -->
           <div class="col-md-4 col-sm-6 pre-footer-col">
             <h2>About us</h2>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam sit nonummy nibh euismod tincidunt ut laoreet dolore magna aliquarm erat sit volutpat.</p>
+            <p>Attenadance System Real time.</p>
 
             <div class="photo-stream">
               <h2>Photos Stream</h2>
@@ -326,12 +326,12 @@
           <div class="col-md-4 col-sm-6 pre-footer-col">
             <h2>Our Contacts</h2>
             <address class="margin-bottom-40">
-              35, Lorem Lis Street, Park Ave<br>
-              California, US<br>
-              Phone: 300 323 3456<br>
-              Fax: 300 323 1456<br>
-              Email: <a href="mailto:info@metronic.com">info@metronic.com</a><br>
-              Skype: <a href="skype:metronic">metronic</a>
+              Jl.Sarapung No.23<br>
+              Manado, North Sulawesi; Indonesia<br>
+              Phone: +62431 3800688<br>
+              Hp : +62811 4318 088
+              Fax: +62431 850871<br>
+              Email: <a href="mailto:info@metronic.com">info@easytimeman.com</a><br>
             </address>
 
             <div class="pre-footer-subscribe-box pre-footer-subscribe-box-vertical">
@@ -366,21 +366,19 @@
         <div class="row">
           <!-- BEGIN COPYRIGHT -->
           <div class="col-md-6 col-sm-6 padding-top-10">
-            2014 © Metronic Shop UI. ALL Rights Reserved. <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+            2014 © easytimeman. <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
           </div>
           <!-- END COPYRIGHT -->
           <!-- BEGIN PAYMENTS -->
           <div class="col-md-6 col-sm-6">
             <ul class="social-footer list-unstyled list-inline pull-right">
+              <li><a href="#"><i class="fa fa-instagram"></i></a></li>
               <li><a href="#"><i class="fa fa-facebook"></i></a></li>
               <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-              <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
               <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
               <li><a href="#"><i class="fa fa-twitter"></i></a></li>
               <li><a href="#"><i class="fa fa-skype"></i></a></li>
-              <li><a href="#"><i class="fa fa-github"></i></a></li>
               <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-              <li><a href="#"><i class="fa fa-dropbox"></i></a></li>
             </ul>  
           </div>
           <!-- END PAYMENTS -->
@@ -402,12 +400,24 @@
 
     <!-- BEGIN PAGE LEVEL JAVASCRIPTS (REQUIRED ONLY FOR CURRENT PAGE) -->
     <script src="assets/global/plugins/fancybox/source/jquery.fancybox.pack.js" type="text/javascript"></script><!-- pop up -->
+    <script src="assets/global/plugins/carousel-owl-carousel/owl-carousel/owl.carousel.min.js" type="text/javascript"></script><!-- slider for products -->
+
+    <!-- BEGIN RevolutionSlider -->
+  
+    <script src="assets/global/plugins/slider-revolution-slider/rs-plugin/js/jquery.themepunch.revolution.min.js" type="text/javascript"></script> 
+    <script src="assets/global/plugins/slider-revolution-slider/rs-plugin/js/jquery.themepunch.tools.min.js" type="text/javascript"></script> 
+    <script src="assets/frontend/pages/scripts/revo-slider-init.js" type="text/javascript"></script>
+    <!-- END RevolutionSlider -->
 
     <script src="assets/frontend/layout/scripts/layout.js" type="text/javascript"></script>
     <script type="text/javascript">
         jQuery(document).ready(function() {
             Layout.init();    
+            Layout.initOWL();
+            RevosliderInit.initRevoSlider();
             Layout.initTwitter();
+            //Layout.initFixHeaderWithPreHeader(); /* Switch On Header Fixing (only if you have pre-header) */
+            //Layout.initNavScrolling(); 
         });
     </script>
     <!-- END PAGE LEVEL JAVASCRIPTS -->
