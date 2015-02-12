@@ -19,7 +19,7 @@ License: You must have a valid license purchased only from themeforest (the abov
 <!-- Head BEGIN -->
 <head>
   <meta charset="utf-8">
-  <title>Create new account | Easytimeman</title>
+  <title>Login | Easytimeman</title>
 
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -80,7 +80,7 @@ License: You must have a valid license purchased only from themeforest (the abov
       </div>
     </div>
     <!-- END BEGIN STYLE CUSTOMIZER --> 
-
+    
     <!-- BEGIN TOP BAR -->
     <div class="pre-header">
         <div class="container">
@@ -111,7 +111,7 @@ License: You must have a valid license purchased only from themeforest (the abov
         <a class="site-logo" href="index.html"><img src="assets/frontend/layout/img/logos/logo-corp-red.png" alt="Metronic FrontEnd"></a>
 
         <a href="javascript:void(0);" class="mobi-toggler"><i class="fa fa-bars"></i></a>
-
+        
         <!-- BEGIN NAVIGATION -->
         <div class="header-navigation pull-right font-transform-inherit">
           <ul>
@@ -124,6 +124,7 @@ License: You must have a valid license purchased only from themeforest (the abov
           </ul>
         </div>
         <!-- END NAVIGATION -->
+        
       </div>
     </div>
     <!-- Header END -->
@@ -132,8 +133,8 @@ License: You must have a valid license purchased only from themeforest (the abov
       <div class="container">
         <ul class="breadcrumb">
             <li><a href="index.html">Home</a></li>
-            <li><a href="#">Try it Free</a></li>
-            <li class="active">Create new account</li>
+            <li><a href="#">Pages</a></li>
+            <li class="active">Login</li>
         </ul>
         <!-- BEGIN SIDEBAR & CONTENT -->
         <div class="row margin-bottom-40">
@@ -142,69 +143,51 @@ License: You must have a valid license purchased only from themeforest (the abov
             <ul class="list-group margin-bottom-25 sidebar-menu">
               <li class="list-group-item clearfix"><a href="#"><i class="fa fa-angle-right"></i> Login/Register</a></li>
               <li class="list-group-item clearfix"><a href="#"><i class="fa fa-angle-right"></i> Restore Password</a></li>
+              <li class="list-group-item clearfix"><a href="#"><i class="fa fa-angle-right"></i> My account</a></li>
+              <li class="list-group-item clearfix"><a href="#"><i class="fa fa-angle-right"></i> Feedback</a></li>
             </ul>
           </div>
           <!-- END SIDEBAR -->
 
           <!-- BEGIN CONTENT -->
           <div class="col-md-9 col-sm-9">
-            <h1>Create an account</h1>
+            <h1>Login</h1>
             <div class="content-form-page">
               <div class="row">
                 <div class="col-md-7 col-sm-7">
-                  <form class="form-horizontal" role="form">
-                    <fieldset>
-                      <legend>Your personal details</legend>
-                      <div class="form-group">
-                        <label for="firstname" class="col-lg-4 control-label">First Name <span class="require">*</span></label>
-                        <div class="col-lg-8">
-                          <input type="text" class="form-control" id="firstname">
-                        </div>
+                  <form class="form-horizontal form-without-legend" role="form">
+                    <div class="form-group">
+                      <label for="email" class="col-lg-4 control-label">Email <span class="require">*</span></label>
+                      <div class="col-lg-8">
+                        <input type="text" class="form-control" id="email">
                       </div>
-                      <div class="form-group">
-                        <label for="lastname" class="col-lg-4 control-label">Last Name <span class="require">*</span></label>
-                        <div class="col-lg-8">
-                          <input type="text" class="form-control" id="lastname">
-                        </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="password" class="col-lg-4 control-label">Password <span class="require">*</span></label>
+                      <div class="col-lg-8">
+                        <input type="text" class="form-control" id="password">
                       </div>
-                      <div class="form-group">
-                        <label for="email" class="col-lg-4 control-label">Email <span class="require">*</span></label>
-                        <div class="col-lg-8">
-                          <input type="text" class="form-control" id="email">
-                        </div>
-                      </div>
-                    </fieldset>
-                    <fieldset>
-                      <legend>Your password</legend>
-                      <div class="form-group">
-                        <label for="password" class="col-lg-4 control-label">Password <span class="require">*</span></label>
-                        <div class="col-lg-8">
-                          <input type="text" class="form-control" id="password">
-                        </div>
-                      </div>
-                      <div class="form-group">
-                        <label for="confirm-password" class="col-lg-4 control-label">Confirm password <span class="require">*</span></label>
-                        <div class="col-lg-8">
-                          <input type="text" class="form-control" id="confirm-password">
-                        </div>
-                      </div>
-                    </fieldset>
-                    <fieldset>
-                      <legend></legend>
-                      <div class="checkbox form-group">
-                        <label>
-                          <div class="col-lg- col-sm-">
-                            <input type="checkbox">
-                          <div class="col-lg- col-sm-">I agree of the Term of Use</div>
-                          <div class="col-lg-8 col-sm-8">
-                        </div>
-                        </label>
-                      </div>
-                    </fieldset>
+                    </div>
                     <div class="row">
-                      <div class="col-lg-8 col-md-offset-4 padding-left-0 padding-top-20">                        
-                        <button type="submit" class="btn btn-primary">Create an account</button>
-                        <button type="button" class="btn btn-default">Cancel</button>
+                      <div class="col-lg-8 col-md-offset-4 padding-left-0">
+                        <a href="page-forgotton-password.html">Forget Password?</a>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-8 col-md-offset-4 padding-left-0 padding-top-20">
+                        <button type="submit" class="btn btn-primary">Login</button>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-8 col-md-offset-4 padding-left-0 padding-top-10 padding-right-30">
+                        <hr>
+                        <div class="login-socio">
+                            <p class="text-muted">or login using:</p>
+                            <ul class="social-icons">
+                                <li><a href="#" data-original-title="facebook" class="facebook" title="facebook"></a></li>
+                                <li><a href="#" data-original-title="Google Plus" class="googleplus" title="Google Plus"></a></li>
+                            </ul>
+                        </div>
                       </div>
                     </div>
                   </form>
@@ -212,9 +195,7 @@ License: You must have a valid license purchased only from themeforest (the abov
                 <div class="col-md-4 col-sm-4 pull-right">
                   <div class="form-info">
                     <h2><em>Important</em> Information</h2>
-                    <p>Silahkan periksa kembali email Anda dengan benar.</p>
-
-                    <p>Reset Password akan dikirimkan ke email yang Anda daftar.</p>
+                    <p>Duis autem vel eum iriure at dolor vulputate velit esse vel molestie at dolore.</p>
 
                     <button type="button" class="btn btn-default">More details</button>
                   </div>
@@ -293,6 +274,7 @@ License: You must have a valid license purchased only from themeforest (the abov
       </div>
     </div>
     <!-- END FOOTER -->
+
 
     <!-- Load javascripts at bottom, this will reduce page load time -->
     <!-- BEGIN CORE PLUGINS (REQUIRED FOR ALL PAGES) -->
