@@ -1,0 +1,155 @@
+<!-- LIST MASTER IJIN -->
+
+<div class="panel panel-default" ng-show="checkView('List')">
+    <div class="row wrapper">
+        <div class="col-sm-5 m-b-xs">
+            <button class="btn btn-sm btn-primary" ng-click="toCreate()">New Master Ijin</button>
+        </div>
+        <div class="col-sm-4">
+        </div>
+        <div class="col-sm-3">
+            
+        </div>
+    </div>
+    <div class="table-responsive">
+        <table class="table table-striped b-t b-light">
+            <thead>
+                <tr>
+                    <th style="width:20px;">Id</th>
+                    <th>Nama Ijin</th>
+                  
+                </tr>
+            </thead>
+            <tbody>
+
+                <tr ng-repeat="(key, value) in ListMasterEx">
+                     <td>{{key}}</td>
+                    <td>
+                        <a class="text-info" ng-click="Detail(value)">
+                            {{value}}
+                        </a>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+    <footer class="panel-footer">
+        <div class="row">
+            <div class="col-sm-4 hidden-xs">
+                
+            </div>
+            <div class="col-sm-4 text-center">
+                <a ng-click="loadMore()" ng-show="showLoadMore()"><small class="text-info inline m-t-sm m-b-sm">Load more...</small></a>
+            </div>
+        </div>
+    </footer>
+</div>
+<!-- LIST MESIN END -->
+
+<!-- NEW MASTER IJIN -->
+
+<div class="panel panel-default" ng-show="checkView('Create')">
+    <div class="panel-body">
+        <form class="form-horizontal">
+            <div class="form-group">
+                <label class="col-sm-2 control-label">Nama Ijin</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" ng-model="newMasex" placeholder="Nama Ijin">
+                </div>
+            </div>
+
+            <div class="line line-dashed b-b line-lg pull-in"></div>
+            <div class="form-group">
+                <div class="col-sm-4 col-sm-offset-2">
+                    <button class="btn btn-default" ng-click="toList()">Cancel</button>
+                    <button class="btn btn-success" ng-click="create()">Create</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- NEW MASTER IJIN END-->
+
+<!-- DETAIL MASTER IJIN -->
+
+<div class="panel panel-default" ng-show="checkView('Detail')">
+    <div class="panel-body">
+        <form class="form-horizontal">
+
+            <div class="form-group">
+                <label class="col-sm-2 control-label">Nama Ijin</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" value="{{masex}}" placeholder="No Hp" disabled>
+                </div>
+            </div>
+
+            <div class="line line-dashed b-b line-lg pull-in"></div>
+            <div class="form-group">
+                <div class="col-sm-4 col-sm-offset-2">
+                    <button class="btn btn-default" ng-click="toList()">Cancel</button>
+                    <button class="btn btn-info" ng-click="toEdit()">Edit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- DETAIL MASTER IJIN END -->
+
+<!-- EDIT MASTER IJIN -->
+
+
+<!-- <div class="panel panel-default" ng-show="checkView('Edit')">
+    <div class="panel-body">
+        <form class="form-horizontal">
+            <div class="form-group">
+                <label class="col-sm-2 control-label">Nama</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" ng-model="user.Name" placeholder="Nama">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label">No Hp</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" ng-model="user.Mobile" placeholder="No Hp">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label">Hak Akses</label>
+                <div class="col-sm-10">
+                    <select class="form-control" ng-model="user.Role">
+                        <option value="">-Pilih Hak Akses-</option>
+                        <option value="user">user</option>
+                        <option value="supervisor">supervisor</option>
+                        <option value="admin">admin</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label">gmt </label>
+                <div class="col-sm-10">
+                    <select class="form-control" ng-model="newDev.gmt">
+                        <option value="">Lokasi GMT</option>
+                        <option value="+0700">GMT +7</option>
+                        <option value="+0800">GMT +8</option>
+                        <option value="+0900">GMT +9</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="line line-dashed b-b line-lg pull-in"></div>
+            <div class="form-group">
+                <div class="col-sm-4 col-sm-offset-2">
+                    <button class="btn btn-default" ng-click="toDetail()">Cancel</button>
+                    <button class="btn btn-success" ng-click="update()">Update</button>
+
+                </div>
+            </div>
+        </form>
+    </div>
+</div> -->
+
+
+<!-- EDIT MASTER IJIN END-->

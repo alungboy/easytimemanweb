@@ -1,0 +1,247 @@
+<div class="container w-auto-xs" style="width:990px;">
+    <a href class="navbar-brand block m-t">Review</a>
+    <div class="m-b-lg">
+        <div>
+            <div class="row wrapper">
+                <div class="col-sm-6">
+                    <div class="input-group">
+                        <span class="input-group-btn">
+                            <button class="btn btn-sm btn-default" type="button" disabled>Nama Perusahaan</button>
+                        </span>
+                        <input type="text" class="input-sm form-control" disabled ng-model="userReg.User.CompanyName">
+
+                    </div>
+
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="input-group">
+                        <span class="input-group-btn">
+                          <button class="btn btn-sm btn-default" type="button" disabled >Nama Lengkap</button>
+                        </span>
+                        <input type="text" class="input-sm form-control" disabled ng-model="userReg.User.Name">
+
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="row wrapper">
+                <div class="col-sm-3">
+                    <div class="input-group">
+                        <span class="input-group-btn">
+                    <button class="btn btn-sm btn-default" type="button" disabled  >Serial Number</button>
+                </span>
+                        <input type="text" class="input-sm form-control" disabled ng-model="userReg.Device.Sn">
+
+                    </div>
+
+                </div>
+                <div class="col-sm-3">
+                    <div class="input-group">
+                        <span class="input-group-btn">
+                          <button class="btn btn-sm btn-default" type="button" disabled >GMT</button>
+                        </span>
+                        <input type="text" class="input-sm form-control" disabled ng-model="userReg.Device.TimeZone">
+
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="input-group">
+                        <span class="input-group-btn">
+                    <button class="btn btn-sm btn-default" type="button" disabled >Nama Mesin</button>
+                </span>
+                        <input type="text" class="input-sm form-control" disabled ng-model="userReg.Device.Name">
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="row wrapper">
+                <div class="col-sm-3">
+                    <div class="input-group">
+                        <span class="input-group-btn">
+                    <button class="btn btn-sm btn-default" type="button" disabled >Departemen</button>
+                </span>
+                        <input type="text" class="input-sm form-control" disabled ng-model="userReg.Depart.Name">
+
+                    </div>
+
+                </div>
+                <div class="col-sm-3">
+                    <div class="input-group">
+                        <span class="input-group-btn">
+                          <button class="btn btn-sm btn-default" type="button" disabled >Nama Jadwal</button>
+                        </span>
+                        <input type="text" class="input-sm form-control" disabled ng-model="userReg.Sche.Name">
+
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="input-group">
+                        <span class="input-group-btn">
+                    <button class="btn btn-sm btn-default" type="button" disabled >Keterangan</button>
+                </span>
+                        <input type="text" class="input-sm form-control" disabled ng-model="userReg.Sche.Note">
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="table-responsive">
+                <table class="table table-striped b-t b-light">
+                    <thead>
+                        <tr>
+                            <th>Ket</th>
+                            <th>Senin</th>
+                            <th>Selasa</th>
+                            <th>Rabu</th>
+                            <th>Kamis</th>
+                            <th>Jumat</th>
+                            <th>Sabtu</th>
+                            <th>Minggu</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>active</td>
+                            <td>
+                                <input type="checkbox" ng-model="userReg.Sche[1].Active" disabled>
+                            </td>
+                            <td>
+                                <input type="checkbox" ng-model="userReg.Sche[2].Active" disabled>
+                            </td>
+                            <td>
+                                <input type="checkbox" ng-model="userReg.Sche[3].Active" disabled>
+                            </td>
+                            <td>
+                                <input type="checkbox" ng-model="userReg.Sche[4].Active" disabled>
+                            </td>
+                            <td>
+                                <input type="checkbox" ng-model="userReg.Sche[5].Active" disabled>
+                            </td>
+                            <td>
+                                <input type="checkbox" ng-model="userReg.Sche[6].Active" disabled>
+                            </td>
+                            <td>
+                                <input type="checkbox" ng-model="userReg.Sche[7].Active" disabled>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>open</td>
+                            <td>{{userReg.Sche[1].Open}} min</td>
+                            <td>{{userReg.Sche[2].Open}} min</td>
+                            <td>{{userReg.Sche[3].Open}} min</td>
+                            <td>{{userReg.Sche[4].Open}} min</td>
+                            <td>{{userReg.Sche[5].Open}} min</td>
+                            <td>{{userReg.Sche[6].Open}} min</td>
+                            <td>{{userReg.Sche[7].Open}} min</td>
+                        </tr>
+                        <tr>
+                            <td>startWork</td>
+                            <td>{{userReg.Sche[1].StartWork}}</td>
+                            <td>{{userReg.Sche[2].StartWork}}</td>
+                            <td>{{userReg.Sche[3].StartWork}}</td>
+                            <td>{{userReg.Sche[4].StartWork}}</td>
+                            <td>{{userReg.Sche[5].StartWork}}</td>
+                            <td>{{userReg.Sche[6].StartWork}}</td>
+                            <td>{{userReg.Sche[7].StartWork}}</td>
+
+                        </tr>
+                        <tr>
+                            <td>endWork</td>
+                            <td>{{userReg.Sche[1].EndWork}}</td>
+                            <td>{{userReg.Sche[2].EndWork}}</td>
+                            <td>{{userReg.Sche[3].EndWork}}</td>
+                            <td>{{userReg.Sche[4].EndWork}}</td>
+                            <td>{{userReg.Sche[5].EndWork}}</td>
+                            <td>{{userReg.Sche[6].EndWork}}</td>
+                            <td>{{userReg.Sche[7].EndWork}}</td>
+
+                        </tr>
+                        <tr>
+                            <td>IsOverTime</td>
+                            <td>
+                                <input type="checkbox" ng-model="userReg.Sche[1].IsOverTime" disabled>
+                            </td>
+                            <td>
+                                <input type="checkbox" ng-model="userReg.Sche[2].IsOverTime" disabled>
+                            </td>
+                            <td>
+                                <input type="checkbox" ng-model="userReg.Sche[3].IsOverTime" disabled>
+                            </td>
+                            <td>
+                                <input type="checkbox" ng-model="userReg.Sche[4].IsOverTime" disabled>
+                            </td>
+                            <td>
+                                <input type="checkbox" ng-model="userReg.Sche[5].IsOverTime" disabled>
+                            </td>
+                            <td>
+                                <input type="checkbox" ng-model="userReg.Sche[6].IsOverTime" disabled>
+                            </td>
+                            <td>
+                                <input type="checkbox" ng-model="userReg.Sche[7].IsOverTime" disabled>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>overTime</td>
+                            <td>{{userReg.Sche[1].OverTime}}</td>
+                            <td>{{userReg.Sche[2].OverTime}}</td>
+                            <td>{{userReg.Sche[3].OverTime}}</td>
+                            <td>{{userReg.Sche[4].OverTime}}</td>
+                            <td>{{userReg.Sche[5].OverTime}}</td>
+                            <td>{{userReg.Sche[6].OverTime}}</td>
+                            <td>{{userReg.Sche[7].OverTime}}</td>
+
+                        </tr>
+                        <tr>
+                            <td>endOverTime</td>
+                            <td>{{userReg.Sche[1].EndOverTime}}</td>
+                            <td>{{userReg.Sche[2].EndOverTime}}</td>
+                            <td>{{userReg.Sche[3].EndOverTime}}</td>
+                            <td>{{userReg.Sche[4].EndOverTime}}</td>
+                            <td>{{userReg.Sche[5].EndOverTime}}</td>
+                            <td>{{userReg.Sche[6].EndOverTime}}</td>
+                            <td>{{userReg.Sche[7].EndOverTime}}</td>
+                        </tr>
+                        <tr>
+                            <td>Close</td>
+                            <td>{{userReg.Sche[1].Close}} min</td>
+                            <td>{{userReg.Sche[2].Close}} min</td>
+                            <td>{{userReg.Sche[3].Close}} min</td>
+                            <td>{{userReg.Sche[4].Close}} min</td>
+                            <td>{{userReg.Sche[5].Close}} min</td>
+                            <td>{{userReg.Sche[6].Close}} min</td>
+                            <td>{{userReg.Sche[7].Close}} min</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+            <div class="checkbox m-b-md m-t-none">
+                <label class="i-checks">
+                    <input type="checkbox" ng-model="agree" required><i></i> Saya menyetujui <a href>syarat dan ketentuan.</a>
+                </label>
+            </div>
+            <div class="m-t">
+                <div ng-show="userReg.Err" class="alert alert-danger">
+                    {{userReg.Err}}
+                </div>
+            </div>
+            <div class="m-t">
+                <div class="alert alert-success" ng-show="loading">
+                    Mohon Tunggu...
+                </div>
+            </div>
+            <a class="btn btn-primary btn-lg btn-block" ui-sref="first.depart">Back</a>
+            <button type="button" class="btn btn-info btn-lg btn-block" ng-click="firstReg()" ng-disabled="loading">Daftarkan</button>
+            <div class="line line-dashed"></div>
+
+
+        </div>
+    </div>
+    <div class="text-center" ng-include="'views/blocks/page_footer.html'"></div>
+</div>
