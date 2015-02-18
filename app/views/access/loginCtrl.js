@@ -13,7 +13,7 @@ app.controller('LoginCtrl', ['$window','$scope', '$rootScope', '$http', '$state'
             email: $scope.user.email,
             password: $scope.user.password
         }).then(function(authData) {
-            $window.location.replace("/")
+            $window.location.replace("/app")
         }).catch(function(error) {
 
             switch (error.code) {
