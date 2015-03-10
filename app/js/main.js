@@ -15,7 +15,7 @@ angular.module('app')
 
             // config
             $scope.app = {
-                name: 'EasyTimeMan',
+                name: 'eAbsen',
                 version: '1.3.2',
                 // for chart colors
                 color: {
