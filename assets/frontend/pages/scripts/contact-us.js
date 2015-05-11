@@ -15,7 +15,7 @@ var ContactUs = function () {
 					lng: 124.840073,
 		            title: 'easytimeman.com',
 		            infoWindow: {
-		                content: "<b>easytimeman.com</b> Jalan Sarapung no. 23 (Virgo Travel Lantai 3)"
+		                content: "<b>eabsen.com</b> Jalan Sarapung no. 23 (Virgo Travel Lantai 2)"
 		            }
 		        });
 
