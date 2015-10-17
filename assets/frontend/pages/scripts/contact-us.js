@@ -13,9 +13,9 @@ var ContactUs = function () {
 			   var marker = map.addMarker({
 		            lat: 1.487885,
 					lng: 124.840073,
-		            title: 'easytimeman.com',
+		            title: 'eabsen.com',
 		            infoWindow: {
-		                content: "<b>eabsen.com</b> Jalan Sarapung no. 23 (Virgo Travel Lantai 2)"
+		                content: "<b>eabsen.com</b> (PT. Eabsen GLobal Indonesia) Jalan Sarapung no. 23 Manado Sulawesi Utara"
 		            }
 		        });
 
