@@ -47,6 +47,11 @@
   <link href="/assets/frontend/layout/css/themes/red.css" rel="stylesheet" id="style-color">
   <link href="/assets/frontend/layout/css/custom.css" rel="stylesheet">
   <!-- Theme styles END -->
+  <style>
+    .height-threshold{
+      max-height: 400px;
+    }
+  </style>
 </head>
 <!-- Head END -->
 
@@ -120,8 +125,41 @@
         <div class="col-md-12 col-sm-12">
             <div class="col-md-12 col-sm-12 blog-item">
               <div class="blog-item-img">
-                <img class="img-responsive center-block" alt="Eabsen BKD Telkomsel" src="/img/berita/2015/10/09-01.jpg">
+                <!-- BEGIN CAROUSEL -->
+                <div class="front-carousel">
+                  <div id="myCarousel" class="carousel slide">
+                    <!-- Carousel items -->
+                    <div class="carousel-inner">
+                      <div class="item active">
+                        <img class="center-block height-threshold" src="/img/berita/2015/10/09-01.jpg" alt="Eabsen Bekerjasama dengan Telkomsel">
+                      </div>
+                      <div class="item">
+                        <img class="center-block height-threshold" src="/img/berita/2015/10/09-02.jpg" alt="Eabsen Bekerjasama dengan Telkomsel">
+                      </div>
+                      <div class="item">
+                        <img class="center-block height-threshold" src="/img/berita/2015/10/09-03.jpg" alt="Eabsen Bekerjasama dengan Telkomsel">
+                      </div>
+                      <div class="item">
+                        <img class="center-block height-threshold" src="/img/berita/2015/10/09-04.jpg" alt="Eabsen Bekerjasama dengan Telkomsel">
+                      </div>
+                      <div class="item">
+                        <img class="center-block height-threshold" src="/img/berita/2015/10/09-05.jpg" alt="Eabsen Bekerjasama dengan Telkomsel">
+                      </div>
+
+
+                    </div>
+                    <!-- Carousel nav -->
+                    <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+                      <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a class="carousel-control right" href="#myCarousel" data-slide="next">
+                      <i class="fa fa-angle-right"></i>
+                    </a>
+                  </div>
+                </div>
+                <!-- END CAROUSEL -->
               </div>
+
             </div>
             <h2>Eabsen Kerja Sama dengan BKD Smart Office (Apps) dan Telkomsel</h2>
             <p>
@@ -139,38 +177,9 @@
             <ul class="blog-info">
               <li><i class="fa fa-link"></i><a href="http://www.bkd.sulutprov.go.id/berita/MOU_Telkomsel.php">Sumber</a></li>
             </ul>
-            <div class="blog-item-img">
-              <!-- BEGIN CAROUSEL -->
-              <div class="front-carousel">
-                <div id="myCarousel" class="carousel slide">
-                  <!-- Carousel items -->
-                  <div class="carousel-inner">
-                    <div class="item active">
-                      <img class="center-block" src="/img/berita/2015/10/09-02.jpg" alt="Eabsen Bekerjasama dengan Telkomsel">
-                    </div>
-                    <div class="item">
-                      <img class="center-block" src="/img/berita/2015/10/09-03.jpg" alt="Eabsen Bekerjasama dengan Telkomsel">
-                    </div>
-                    <div class="item">
-                      <img class="center-block" src="/img/berita/2015/10/09-04.jpg" alt="Eabsen Bekerjasama dengan Telkomsel">
-                    </div>
-                    <div class="item">
-                      <img class="center-block" src="/img/berita/2015/10/09-05.jpg" alt="Eabsen Bekerjasama dengan Telkomsel">
-                    </div>
 
 
-                  </div>
-                  <!-- Carousel nav -->
-                  <a class="carousel-control left" href="#myCarousel" data-slide="prev">
-                    <i class="fa fa-angle-left"></i>
-                  </a>
-                  <a class="carousel-control right" href="#myCarousel" data-slide="next">
-                    <i class="fa fa-angle-right"></i>
-                  </a>
-                </div>
-              </div>
-              <!-- END CAROUSEL -->
-            </div>
+
         </div>
       </div>
       <!-- END SIDEBAR & CONTENT -->
