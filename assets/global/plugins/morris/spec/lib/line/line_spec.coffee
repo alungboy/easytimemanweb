@@ -14,7 +14,7 @@ describe 'Morris.Line', ->
 
   it 'should make point styles customizable', ->
     my_data = [{x: 1, y: 1}, {x: 2, y: 2}]
-    red = '#ff0000'
+    red = '#ff00000'
     blue = '#0000ff'
     chart = Morris.Line
       element: 'graph'

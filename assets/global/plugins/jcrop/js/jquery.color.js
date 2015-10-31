@@ -651,7 +651,7 @@
 		pink: "#ffc0cb",
 		purple: "#800080",
 		violet: "#800080",
-		red: "#ff0000",
+		red: "#ff00000",
 		silver: "#c0c0c0",
 		white: "#ffffff",
 		yellow: "#ffff00",

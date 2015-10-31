@@ -63,7 +63,7 @@ describe 'Morris.Donut', ->
     defaults =
       element: 'graph'
       data: [ {label: 'One', value: 25 }, {label: "Two", value: 30} ]
-      colors: ['#ff0000', '#00ff00', '#0000ff']
+      colors: ['#ff00000', '#00ff00', '#0000ff']
 
     it 'should update the chart', ->
       chart = Morris.Donut $.extend {}, defaults

@@ -512,7 +512,7 @@ body.page-header-fixed {
 	text-decoration: none;
 }
 .header-navigation ul > li.active > a {
-	border-bottom: 2px solid #e64f00;
+	border-bottom: 2px solid #ff0000;
 }
 
 /* dropdown menu */

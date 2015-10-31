@@ -312,9 +312,9 @@ dl.samples > dd
 }
 .warning
 {
-	color: #ff0000;
+	color: #ff00000;
 	background-color: #FFCCBA;
-	border: 2px dotted #ff0000;
+	border: 2px dotted #ff00000;
 	padding: 15px 10px;
 	margin: 10px 0;
 }
