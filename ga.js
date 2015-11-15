@@ -11,4 +11,6 @@
 })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
 ga('create', 'UA-69244766-1', 'auto');
+ga('require', 'linker');
+ga('linker:autoLink', ['app.eabsen.com']);  
 ga('send', 'pageview');
