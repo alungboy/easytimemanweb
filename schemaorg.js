@@ -4,7 +4,7 @@
 "name": "Eabsen.com",
 "legalName": "PT. Eabsen Global Indonesia",
 "description": "Eabsen.com (PT. Eabsen Global Indonesia) is an Information Technology and Services company focusing on helping companies's Human Resource Development .We're making Real time employee attendance system using fingerprint device and backed by Cloud Saas. Real time employee attendance monitoring using our web application, Android and iOS app anytime, anywhere. In the future, we'll make your employee payroll management become easier, faster, and cost effective.",
-"logo" : "https://www.eabsen.com/img/eabsen.png",
+"logo" : "https://www.eabsen.com/img/eabsen-200.png",
 "email" : "info@eabsen.com",
 "url" : "https://www.eabsen.com",
 "sameAs" : [
