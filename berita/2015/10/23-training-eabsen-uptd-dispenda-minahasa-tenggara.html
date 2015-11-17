@@ -52,12 +52,21 @@
       max-height: 400px;
     }
   </style>
+  <script type="application/ld+json">
+    { "@context" : "http://schema.org", "@type" : "Organization", "name": "Eabsen.com", "legalName": "PT. Eabsen Global Indonesia", "description": "Eabsen.com (PT. Eabsen Global Indonesia) is an Information Technology and Services company focusing on helping
+    companies's Human Resource Development .We're making Real time employee attendance system using fingerprint device and backed by Cloud Saas. Real time employee attendance monitoring using our web application, Android and iOS app anytime, anywhere.
+    In the future, we'll make your employee payroll management become easier, faster, and cost effective.", "logo" : "https://www.eabsen.com/img/eabsen-200.png", "email" : "info@eabsen.com", "url" : "https://www.eabsen.com", "sameAs" : [ "http://www.facebook.com/eabsen",
+    "http://twitter.com/eabsendotcom", "http://www.linkedin.com/company/eabsen-com", "http://www.youtube.com/channel/UCSEQIO12Okz26TTT7HsXgHw", "http://instagram.com/eabsendotcom", "https://plus.google.com/u/0/107145897028516904905" ], "address": "Jalan
+    Sarapung No.23 Manado, 95111 Sulawesi Utara Indonesia", "foundingDate": "2015-05-30", "founder": [{ "@type" : "Person", "name" : "Satriyo Bhaskara", "jobTitle": "CEO", "url" : "http://id.linkedin.com/in/satriyo-bhaskara-70957188" }, { "@type" : "Person",
+    "name" : "Hendra Charles", "jobTitle": "CTO", "url" : "http://www.linkedin.com/in/hendra-charles-11351a77" }, { "@type" : "Person", "name" : "Jethro David", "jobTitle": "CPO", "url" : "http://www.linkedin.com/in/jethro-david-5006ab97" }], "contactPoint"
+    : [{ "@type" : "ContactPoint", "telephone" : "+62-811-43-18-0-88", "contactType" : "customer service" }] }
+  </script>
 </head>
 <!-- Head END -->
 
 <!-- Body BEGIN -->
 
-<body class="corporate" itemscope itemtype="http://schema.org/Organization">
+<body class="corporate">
   <!-- BEGIN TOP BAR -->
   <div class="pre-header">
     <div class="container">
@@ -66,10 +75,10 @@
         <div class="col-md-6 col-sm-6 additional-shop-info">
           <ul class="list-unstyled list-inline">
             <li><i class="fa fa-phone"></i>
-              <span itemprop="telephone">+62-811-43-18-0-88</span>
+              <span>+62-811-43-18-0-88</span>
             </li>
             <li><i class="fa fa-envelope-o"></i>
-              <span itemprop="email">info@eabsen.com</span>
+              <span>info@eabsen.com</span>
             </li>
           </ul>
         </div>
@@ -90,8 +99,8 @@
   <!-- BEGIN HEADER -->
   <div class="header">
     <div class="container">
-      <a itemprop="url" class="site-logo" href="/index.html">
-        <img itemprop="logo" src="/img/eabsen.png" alt="Logo Eabsen" itemprop="logo">
+      <a class="site-logo" href="/index.html">
+        <img src="/img/eabsen.png" alt="Logo Eabsen">
       </a>
 
       <a href="javascript:void(0);" class="mobi-toggler"><i class="fa fa-bars"></i></a>
@@ -99,13 +108,13 @@
       <!-- BEGIN NAVIGATION -->
       <nav class="header-navigation pull-right font-transform-inherit">
         <ul itemscope itemtype="http://schema.org/SiteNavigationElement">
-          <li itemprop="text"><a itemprop="url" href="/index.html">Home</a></li>
-          <li itemprop="text"><a itemprop="url" href="/cara-konvensional.html">Cara Konvensional</a></li>
-          <li itemprop="text"><a itemprop="url" href="/solusi-absen-online.html">Kenapa Eabsen?</a></li>
-          <li itemprop="text"><a itemprop="url" href="/langganan.html">Harga</a></li>
-          <li itemprop="text"><a itemprop="url" href="/kontak-kami.html">Hubungi Kami</a></li>
-          <li itemprop="text" class="active"><a itemprop="url" href="/berita.html">Berita</a></li>
-          <li itemprop="text"><a itemprop="url" href="https://app.eabsen.com/login" target="_blank">Try it Free</a></li>
+          <li itemprop="name"><a itemprop="url" href="/index.html">Home</a></li>
+          <li itemprop="name"><a itemprop="url" href="/cara-konvensional.html">Cara Konvensional</a></li>
+          <li itemprop="name"><a itemprop="url" href="/solusi-absen-online.html">Kenapa Eabsen?</a></li>
+          <li itemprop="name"><a itemprop="url" href="/langganan.html">Harga</a></li>
+          <li itemprop="name"><a itemprop="url" href="/kontak-kami.html">Hubungi Kami</a></li>
+          <li itemprop="name" class="active"><a itemprop="url" href="/berita.html">Berita</a></li>
+          <li itemprop="name"><a itemprop="url" href="https://app.eabsen.com/login" target="_blank">Try it Free</a></li>
         </ul>
       </nav>
       <!-- END NAVIGATION -->
@@ -116,9 +125,24 @@
   <div class="main">
     <div class="container">
       <ul class="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
-        <li itemprop="itemListElement"><a itemprop="url" href="/index.html">Home</a></li>
-        <li itemprop="itemListElement"><a itemprop="url" href="/berita.html">Berita</a></li>
-        <li itemprop="itemListElement" class="active">Training Eabsen UPTD Dispenda Sulut Wilayah Minahasa Tenggara </li>
+        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+          <a itemprop="item" href="/index.html">
+            <span itemprop="name">Home</span>
+            <meta itemprop="position" content="1">
+          </a>
+        </li>
+        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+          <a itemprop="item" href="/berita.html">
+            <span itemprop="name">Berita</span>
+            <meta itemprop="position" content="2">
+          </a>
+        </li>
+        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="active">
+          <a itemprop="item" href="/2015/10/23-training-eabsen-uptd-dispenda-minahasa-tenggara.html">
+            <span itemprop="name">Training Eabsen UPTD Dispenda Sulut Wilayah Minahasa Tenggara</span>
+            <meta itemprop="position" content="3">
+          </a>
+        </li>
       </ul>
       <!-- BEGIN SIDEBAR & CONTENT -->
       <div class="row margin-bottom-40" itemscope itemtype="http://schema.org/NewsArticle">
@@ -237,19 +261,22 @@
     <div class="container">
       <div class="row">
         <!-- BEGIN COPYRIGHT -->
-        <span itemprop="foundingDate" class="hidden">2015-05-30</span>
+
         <div class="col-md-6 col-sm-6 padding-top-10">
-          2015 © <span itemprop="name">Eabsen.com</span> (<span itemprop="legalName">PT. Eabsen Global Indonesia</span>)
+          2015 ©
+          <span>Eabsen.com</span> (
+          <span>PT. Eabsen Global Indonesia</span>)
         </div>
         <!-- END COPYRIGHT -->
         <!-- BEGIN PAYMENTS -->
         <div class="col-md-6 col-sm-6">
           <ul class="social-footer list-unstyled list-inline pull-right">
-            <li><a href="https://instagram.com/eabsendotcom" target="_blank"><i class="fa fa-instagram"></i></a></li>
             <li><a href="https://www.facebook.com/eabsen" target="_blank"><i class="fa fa-facebook"></i></a></li>
             <li><a href="https://twitter.com/eabsendotcom" target="_blank"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="https://plus.google.com/u/0/107145897028516904905/posts" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+            <li><a href="https://www.linkedin.com/company/eabsen-com" target="_blank"><i class="fa fa-linkedin"></i></a></li>
             <li><a href="https://www.youtube.com/channel/UCSEQIO12Okz26TTT7HsXgHw" target="_blank"><i class="fa fa-youtube"></i></a></li>
+            <li><a href="https://instagram.com/eabsendotcom" target="_blank"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="https://plus.google.com/u/0/107145897028516904905/posts" target="_blank"><i class="fa fa-google-plus"></i></a></li>
           </ul>
         </div>
         <!-- END PAYMENTS -->
