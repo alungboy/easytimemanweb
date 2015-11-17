@@ -124,19 +124,20 @@
   <div class="main">
     <div class="container">
       <ul class="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
-        <li itemprop="itemListElement" typeof="ListItem">
-          <a property="item" typeof="WebPage" href="/index.html">
-            <span property="name">Home</span>
-            <meta property="position" content="1">
+        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+          <a itemprop="item" href="/index.html">
+            <span itemprop="name">Home</span>
+            <meta itemprop="position" content="1">
           </a>
         </li>
-        <li itemprop="itemListElement" typeof="ListItem" class="active">
-          <a property="item" typeof="WebPage" href="/kontak-kami.html">
-            <span property="name">Hubungi Kami</span>
-            <meta property="position" content="2">
+        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+          <a itemprop="item" href="/kontak-kami.html">
+            <span itemprop="name">Hubungi Kami</span>
+            <meta itemprop="position" content="2">
           </a>
         </li>
       </ul>
+      <!-- BEGIN SIDEBAR & CONTENT -->
       <div class="row margin-bottom-40">
         <!-- BEGIN CONTENT -->
         <div class="col-md-12">
@@ -179,6 +180,7 @@
         </div>
         <!-- END CONTENT -->
       </div>
+      <!-- END SIDEBAR & CONTENT -->
     </div>
   </div>
   <!-- BEGIN PRE-FOOTER -->
