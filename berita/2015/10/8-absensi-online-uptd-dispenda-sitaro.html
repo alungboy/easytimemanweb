@@ -57,7 +57,7 @@
 
 <!-- Body BEGIN -->
 
-<body class="corporate">
+<body class="corporate" itemscope itemtype="http://schema.org/Organization">
   <!-- BEGIN TOP BAR -->
   <div class="pre-header">
     <div class="container">
@@ -66,10 +66,10 @@
         <div class="col-md-6 col-sm-6 additional-shop-info">
           <ul class="list-unstyled list-inline">
             <li><i class="fa fa-phone"></i>
-              <span>+62-811-43-18-0-88</span>
+              <span itemprop="telephone">+62-811-43-18-0-88</span>
             </li>
             <li><i class="fa fa-envelope-o"></i>
-              <span>info@eabsen.com</span>
+              <span itemprop="email">info@eabsen.com</span>
             </li>
           </ul>
         </div>
@@ -90,22 +90,22 @@
   <!-- BEGIN HEADER -->
   <div class="header">
     <div class="container">
-      <a class="site-logo" href="/index.html">
-        <img src="/img/eabsen.png" alt="Logo Eabsen">
+      <a itemprop="url" class="site-logo" href="/index.html">
+        <img itemprop="logo" src="/img/eabsen.png" alt="Logo Eabsen" itemprop="logo">
       </a>
 
       <a href="javascript:void(0);" class="mobi-toggler"><i class="fa fa-bars"></i></a>
 
       <!-- BEGIN NAVIGATION -->
       <nav class="header-navigation pull-right font-transform-inherit">
-        <ul>
-          <li><a href="/index.html">Home</a></li>
-          <li><a href="/cara-konvensional.html">Cara Konvensional</a></li>
-          <li><a href="/solusi-absen-online.html">Kenapa Eabsen?</a></li>
-          <li><a href="/langganan.html">Harga</a></li>
-          <li><a href="/kontak-kami.html">Hubungi Kami</a></li>
-          <li class="active"><a href="/berita.html">Berita</a></li>
-          <li><a href="https://app.eabsen.com/login" target="_blank">Try it Free</a></li>
+        <ul itemscope itemtype="http://schema.org/SiteNavigationElement">
+          <li itemprop="text"><a itemprop="url" href="/index.html">Home</a></li>
+          <li itemprop="text"><a itemprop="url" href="/cara-konvensional.html">Cara Konvensional</a></li>
+          <li itemprop="text"><a itemprop="url" href="/solusi-absen-online.html">Kenapa Eabsen?</a></li>
+          <li itemprop="text"><a itemprop="url" href="/langganan.html">Harga</a></li>
+          <li itemprop="text"><a itemprop="url" href="/kontak-kami.html">Hubungi Kami</a></li>
+          <li itemprop="text"class="active"><a itemprop="url" href="/berita.html">Berita</a></li>
+          <li itemprop="text"><a itemprop="url" href="https://app.eabsen.com/login" target="_blank">Try it Free</a></li>
         </ul>
       </nav>
       <!-- END NAVIGATION -->
@@ -151,8 +151,8 @@
             </div>
           </div>
           <h2 itemprop="headline">Instalasi Mesin Absensi Online UPTD Dispenda Sulut Wilayah Sitaro</h2>
+          <span itemprop="datePublished" class="hidden">2015-10-08</span>
           <div itemprop="articleBody">
-            <span itemprop="datePublished" class="hidden">2015-10-08</span>
             <p>
               Kamis, 08/10/2015 Team Eabsen mengunjungi Pulau Siau untuk meng-<i>online</i>-kan mesin absensi di UPTD Dispenda Sulut Wilayah Sitaro. Saat ini <b>BKD Provinsi Sulawesi Utara</b> maupun Dinas Pendapatan Daerah Sulawesi Utara dapat memonitor
               secara Real-Time melalui komputer, tablet, maupun smartphone kehadiran pegawai di tempat Tersebut.
@@ -232,9 +232,7 @@
       <div class="row">
         <!-- BEGIN COPYRIGHT -->
         <div class="col-md-6 col-sm-6 padding-top-10">
-          2015 © Eabsen
-          <a href="#"></a>
-          <a href="#"></a>
+          2015 © <span itemprop="name">Eabsen.com</span> (<span itemprop="legalName">PT. Eabsen Global Indonesia</span>)
         </div>
         <!-- END COPYRIGHT -->
         <!-- BEGIN PAYMENTS -->
