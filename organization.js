@@ -12,7 +12,8 @@
   "http://twitter.com/eabsendotcom",
   "http://www.linkedin.com/company/eabsen-com",
   "http://www.youtube.com/channel/UCSEQIO12Okz26TTT7HsXgHw",
-  "http://instagram.com/eabsendotcom"
+  "http://instagram.com/eabsendotcom",
+  "https://plus.google.com/u/0/107145897028516904905"
 ],
 "address": "Jalan Sarapung No.23 Manado, 95111 Sulawesi Utara Indonesia",
 "foundingDate": "2015-05-30",
