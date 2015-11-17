@@ -16,7 +16,7 @@
 ],
 "address": "Jalan Sarapung No.23 Manado, 95111 Sulawesi Utara Indonesia",
 "foundingDate": "2015-05-30",
-"founders": [{
+"founder": [{
 "@type" : "Person",
 "name" : "Satriyo Bhaskara",
 "jobTitle": "CEO",
