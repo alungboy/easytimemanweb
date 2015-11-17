@@ -1,3 +1,4 @@
+// only put into homepage
 {
   "@context" : "http://schema.org",
   "@type" : "WebSite",
