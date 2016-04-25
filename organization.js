@@ -37,7 +37,7 @@
 }],
 "contactPoint" : [{
 "@type" : "ContactPoint",
-"telephone" : "+62-811-43-18-0-88",
+"telephone" : "0811-4318-088",
 "contactType" : "customer service"
 }]
 }
