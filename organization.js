@@ -15,7 +15,7 @@
   "http://instagram.com/eabsendotcom",
   "https://plus.google.com/u/0/107145897028516904905"
 ],
-"address": "Jalan Sarapung No.23 Manado, 95111 Sulawesi Utara Indonesia",
+"address": "The City Tower, 12 Floor Unit 1N JL. M.H Thamrin No.81, Menteng Jakarta Pusat, DKI Jakarta 10310 Indonesia",
 "foundingDate": "2015-05-30",
 "founder": [{
 "@type" : "Person",
